@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+}
+#header {
+  background-color: black;
+  overflow: hidden;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 1.5rem;
+}
+.selected {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: row1-start;
+  grid-row-end: 1;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  width: 25vw;
+}
+.selected2 {
+  display: grid;
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: row1-start;
+  grid-row-end: 3;
+  align-items: center;
+  justify-content: center;
+  padding-right: 5px;
+  width: 75vw;
+}
+
+.featuredshows {
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: span col5-start;
+  grid-row-start: 2;
+  grid-row-end: span 2;
+  background-image: url("imagesg/theaterbackground.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 100vw;
+  height: 95vh;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+.featuredshows h1 {
+  padding-top: 20%;
+}
+
+/* .content-section { 
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 5fr;
+}*/
+
+.section-header {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: span col1-start;
+  grid-row-start: 1;
+  grid-row-end: span 5;
+  align-items: center;
+  justify-items: start;
+  border: solid 1px lightgrey;
+  background-color: lightgrey;
+  font: bold;
+}
+
+.tour-row {
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+.tour-image {
+  display: inline-block;
+  padding: 20px 20px;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  width: 33%;
+}
+
+.tour-date {
+  /* display: grid; */
+  display: inline-block;
+  /* grid-column-start: 2; 
+  grid-column-end: five;
+  grid-row-start: row1-start;
+  grid-row-end: 3;*/
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  width: 33%;
+  padding-bottom: 30px;
+  height: 10%;
+  align-self: start;
+}
+.btn {
+  display: inline-block;
+  background-color: rgb(255, 204, 37);
+  width: 10%;
+  height: 40px;
+  color: white;
+  font: bold;
+  cursor: pointer;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+  font: bold;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: indianred;
+  color: lightblue;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.chicagoimg {
+  display: inline-block;
+  padding: 20px 20px;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  width: 25%;
+}
+.chicagoimg img {
+  width: 60%;
+  height: 50%;
+}
+
+.info {
+  display: inline-block;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  width: 25%;
+}
+.info ul {
+  padding: 10px;
+  list-style: none;
+}
+.icon {
+  display: inline-block;
+  overflow-wrap: break-word;
+  padding: 25px 10px;
+  overflow: hidden;
+}
+
+.shows {
+  display: inline-block;
+}
+.shows ul {
+  list-style: none;
+}
+.shows ul li {
+  padding: 20px;
+}
+
+.social {
+  display: inline-block;
+}
+.social ul {
+  list-style: none;
+}
+.social ul li {
+  padding: 20px;
+}
